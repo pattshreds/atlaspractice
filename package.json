@@ -1,0 +1,31 @@
+{
+  "name": "atlaspractice",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.15.0"
+  },
+  "description": "This repo is going to be a practice application using MongoDB Atlas.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pattshreds/atlaspractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pattshreds/atlaspractice/issues"
+  },
+  "homepage": "https://github.com/pattshreds/atlaspractice#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.12"
+  }
+}
